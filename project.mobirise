@@ -1,0 +1,1432 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 46,
+    "versionPublish": "3.11.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header2-0",
+          "_params": {
+            "imageSize": "49",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#a38f84",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/graphiccal-crop-new-1-1400x934.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "HOME PAGE",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "color": "#d14841",
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#e25041"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-y",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<a href=\"About.html\">ABOUT US</a>",
+          "text": "CACIM (the India Institute for Critical Action – Centre in Movement) is an initiative towards cultivating and nurturing a culture of critical reflexivity and action in individual and public work. In principle we expect to work in many fields, but our focus at the moment........",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-block": {
+              "text-align": "left"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>CACIM</p><p>(India Institute for Critical Action : Centre in Movement)</p><div>Office : G-5 Jangpura Extension – Basement, New Delhi 110 014, India.</div><div><br></div><div>Registered address : A-3, Defence Colony, New Delhi 110 024, India</div><p></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Adress",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>New Delhi</p><p>&nbsp;Ph +91-11-4356 2925</p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Contact",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>Web : </p><p><a href=\"http://www.cacim.net/twiki/tiki-index.php?page=CACIMHome\" class=\"text-info\">www.cacim.net</a> (external link) / </p><p><a href=\"http://ww2.openword.in/?folio=7POYGN0G2\" class=\"text-info\">www.openword.in</a> /</p><p>  <a href=\"http://www.openspaceforum.net/twiki/tiki-index.php\" class=\"text-info\">www.openspaceforum.net </a>(external link)</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Links",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#7c317a",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "<a href=\"C-Contact.html\" class=\"text-success\">CONTACT US</a>",
+          "subtitle": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-11",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-12",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>"
+        }
+      ]
+    },
+    "About.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-2",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "text-align": "left",
+              "color": "#2969b0"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-5",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "5",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ABOUT CACIM ?",
+          "text": "What is CACIM ?<br><br>CACIM (the India Institute for Critical Action – Centre in Movement) is an initiative towards cultivating and nurturing a culture of critical reflexivity and action in individual and public work. In principle we expect to work in many fields, but our focus at the moment is on activism, research, and publication in relation to social and political movement. We primarily work by building and maintaining real and virtual spaces for fundamental research and critical reflection, exploration, action, and creation in the field of movement : Books, seminars, workshops, websites, listserves, and newsbulletins and action alerts. Initiated in India in 2005, CACIM is transnational, intercultural, and interdisciplinary in vision and culture.<br><br>Who are we ?<br><br>Organisationally, CACIM is a networked association between individuals and organisations located in different parts of India and the world. (See end of this Note for two lists – of the CACIM Council, and of CACIM’s Partners.) CACIM has grown out of <b>Critical Action (CA)</b>, an experiment during 2001-2005 in informal, voluntary association between individuals based in different parts of India and other countries in different continents who were engaged or concerned with social and political movement in different ways. This experiment focussed on the critical study of, reflection and exchange on, and engagement in emerging social and political movement, and in particular through critical involvement and engagement with the World Social Forum.<br><br>In a longer frame, CACIM has also grown out of an earlier experiment and initiative named <b>Unnayan</b>, a civil organisation based in Kolkata, India. Formed in the mid-late 70s, and working through the 80s and 90s, Unnayan’s work in research, documentation, social organisation, and advocacy was in providing critical support to communities and associations of the urban labouring poor in their struggles to gain control over their lives, and in advocacy campaigning at the state, all-India, and international levels. Unnayan is a Bengali word meaning ‘development’ in the sense of unfolding and self-realisation (and not just ‘progress’). Several members of CACIM and CA have been and remain associated with Unnayan.<br><br>CACIM was registered as a non-profit company in India in July 2005. In early 2007, it has taken the first steps in establishing a new initiative in publishing critical thought, <b>OpenWord</b>.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "Programme Focus.html": {
+      "settings": {
+        "title": "Site Generator Title",
+        "meta_descr": "Site Generator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-d",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-e",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "font-size": "17px"
+            },
+            ".lead UL": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-f",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#8c832e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Programme Focus",
+          "text": "<p>As per the programme landscape CACIM defined for itself in 2005, in terms of content we have three broad streams of activity :</p><ul><li>Strategies and Cultures of Movement</li><li>Information / Culture / Technology (ICT)</li><li>Building Bridges.</li></ul><p>Our current focus is primarily in the first area, and more specifically on <b>exploring cultures of politics in movement, the exploration of open space as a political-cultural concept, and the exploration of cyberspace as open space</b>. Through various projects and activities, including the books that we publish and the Colloquia that we organise twice a year, we are working to encourage exchange and learning across disciplines and across cultures and to support and encourage all those involved in different ways with movement – activists, researchers and teachers, professionals, artists performers and composers, and critics commentators and thinkers, both the more mature and young, both as individuals and as organisations, and in networks.</p><p>Presently active programmes, projects, and activities :</p><p><b>World Social Forum Process </b>Publications, <a href=\"http://www.openspaceforum.net/twiki/tiki-index.php\" class=\"text-info\">Webspace </a>(external link) and <a href=\"http://openspaceforum.net/twiki/tiki-index.php?page=MailingList:WorldSocialForum-Discuss\" class=\"text-info\">Listserves</a> (external link), CACIM @ the Forum, WSF Bibliography</p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">Open Space Process</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"> OpenSpaceForum, <a href=\"http://mail.openspaceforum.net/mailman/listinfo/ceos_openspaceforum.net\" class=\"text-info\">CEOS Listserve </a>(external link), the Are Other Worlds Possible ? Phase 2 project, EIOS3 Conference, Open Space Reader, Open Space Films, Hindi Heartland Project, and A Political-Cultural? Glossary</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">Movement and Cultures of Politics</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"> Movement Documentation, Movement Action, Salvaging Unnayan, <a href=\"http://critical-courses.cacim.net/twiki/tiki-index.php\" class=\"text-info\">Critical Courses</a> (external link), <a href=\"http://critical-courses.cacim.net/twiki/tiki-index.php?page=RCCSHome\" class=\"text-info\">Critical Courses Symposium</a> (external link)</span></p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">CACIM Archives</b><br></p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">OpenWord – A CACIM Imprint</b><br></p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">CACIM @ Internet Radio;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"> and :</span><br></p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">CACIM Organisational Activities</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"> CACIM Colloquia, Working Groups, CACIM Pedagogy.</span><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">For details, see<a href=\"http://cacim.net/twiki/tiki-index.php?page=Overview\" class=\"text-info\"> ‘CACIM’s Ongoing Projects and Programmes : An Overview’</a> (external link).</span><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Finally, CACIM intends to expand its network through critical solidarity with movements in all parts of the world. It intends to institute Fellowships for activists, researchers, and those who intend to critically reflect on their actions and contribute towards the ideas of criticality, movement, and open space.</span><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        }
+      ]
+    },
+    "C-Activities.html": {
+      "settings": {
+        "title": "Web Site Builder Title",
+        "meta_descr": "Web Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-g",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-h",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            },
+            ".card-footer > div": {
+              "font-size": "30px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p><span style=\"font-style: normal;\">Place your cursor at the top left if you want to add in an image then click ADD MEDIA button top left above the editing TOOL BAR. Once the image is in the content area you can click on it to edit, change alignment, wrap text around it or link it. You can hyperlink by bringing your cursor over the …</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "<a href=\"Creating a Post Intructions.html\" class=\"text-info\">Creating a Post Intructions</a>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p><span style=\"font-style: normal;\">Test Profile Content this will be the area for the content and it will show up in post feeds kjd f;lkdjf ;lkdj f;lksdj f;slfdj ;lkasdjf ;lkdfj;lksdjf ;lkadj f;lskdjf;ksldjf;lskdj f;lkdjf ;lkadjf ;lkajdf;lksadjf ;lkdjf;lksajdf;lksajd ;slkdj f;lkadj f;lskdjf ;lkasjdf;lksdj ;lkasfj;lksfdj ;lksdjf ;lksdfjs; lkdfj;slakdfj s;ldfj…</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "First Last",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p><span style=\"font-style: normal;\">&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Test Post this will be the area for the content and it will show up in post feeds kjd f;lkdjf ;lkdj f;lksdj f;slfdj ;lkasdjf ;lkdfj;lksdjf ;lkadj f;lsksdfsdfs</span></span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\"><br></span></p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Test Post",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#433748",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "BLOG",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        }
+      ]
+    },
+    "Creating a Post Intructions.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-j",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-k",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px",
+              "text-align": "left"
+            },
+            "SMALL": {
+              "text-align": "left",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "20px",
+              "color": "#0f2339"
+            }
+          },
+          "_anchor": "form1-l",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#c0a375",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Creating a Post Intructions<br><br>",
+          "subtitle": "Place your cursor at the top left if you want to add in an image then click ADD MEDIA button top left above the editing TOOL BAR. Once the image is in the content area you can click on it to edit, change alignment, wrap text around it or link it.<br><br>You can hyperlink by bringing your cursor over the text and clicking on the LINK ICON in the first line of the TOOL BAR. You can unlink by clicking on the BROKEN LINK ICON.<br><br>You will stay in the VISUAL EDITOR MODE (Tabs at the Top Right Corner including TEXT, CORNERSTONE). If you have to interact with the HTML code for some reason click on TEXT.<br><br>If you are missing the 2nd line of your EDITING TOOL BAR click on the last icon in the first row, it will open both rows up.<br><br>You can SAVE DRAFT or PUBLISH when you are ready. You can also schedule when the post will come out by clicking on PUBLISH ON and select a date. And you can create a PASSWORD PROTECTED PAGE be selecting this option under VISIBILITY<br><br>You will not be interacting with FORMAT box.<br><br>Don’t forget to add your CATEGORIES and TAGS.<br><br>You can add a FEATURED IMAGE if you require a thumbnail image to show up in a widget.<br><br><br><br><b>Leave a Reply</b><br>Your email address will not be published. Required fields are marked *<b><br></b><br>",
+          "form": {
+            "action": "amadhuvanthi@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    },
+    "C-Contact.html": {
+      "settings": {
+        "title": "Web Creator Title",
+        "meta_descr": "Web Creator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-m",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-n",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-o",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#af4bbe",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "CACIM",
+          "text": "<p>(India Institute for Critical Action : Centre in Movement)<span style=\"font-size: 1.07rem; line-height: 1.5;\">Office : G-5 Jangpura Extension – Basement, New Delhi 110 014, India. Ph +91-11-4356 2925</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Registered address : A-3, Defence Colony, New Delhi 110 024, India</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">E-mail :</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Web : <a href=\"http://www.cacim.net/twiki/tiki-index.php?page=CACIMHome\" class=\"text-warning\">www.cacim.net</a> (external link) / <a href=\"http://ww2.openword.in/?folio=7POYGN0G2\" class=\"text-warning\">www.openword.in </a>/<a href=\"http://www.openspaceforum.net/twiki/tiki-index.php\" class=\"text-warning\">  www.openspaceforum.net </a>(external link)</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        }
+      ]
+    },
+    "Objectives and Principles.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-17",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.65",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-cacim6-310x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">C-HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">C-ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"About.html\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Landscape</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Objectives and Principles.html\" aria-expanded=\"false\">Objectives and Principles</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Programme Focus.html\">Programme Focus</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Statutory Declarationses</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">C-ACTIVITIES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"C-Activities.html\">OpenWord</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">OpenSpaceForum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Publications</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">RRI-Reaching the Real India</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">WSF Discuss</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">X(to come)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Y ditto</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Z ditto</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">C-COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Advisors</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Associates</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Board</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Staff</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Interns</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"C-Contact.html\" aria-expanded=\"false\">C-CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-18",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "36px"
+            },
+            ".lead P": {
+              "text-align": "left"
+            },
+            ".lead UL": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-19",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#866dae",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Objectives and Principles",
+          "text": "<p>Objectives</p><p>CACIM sees itself not as an independent organisation but interlinked and interdependent, plugged into and learning from the world around us. With this vision, it sees itself as evolving into a hub within networks among individuals and organisations located in different parts of India and the world with these objectives :</p><ul><li>To encourage a culture of critical reflexivity in public work, through fundamental research and critical reflection, exploration, and action in the field of motion and movement</li><li>To encourage learning across disciplines and across culture, and to support and encourage all those involved in different ways with movement – activists, researchers, professionals, artistes, and thinkers, both the more mature and young, and both from civil and incivil worlds – in our respective work as individuals and organisations and also in networks</li><li>To stimulate multiple centres and processes of further exploration of and engagement with open space, movement, and criticality</li><li>To understand, and to develop our vocabulary for sensing, comprehending, articulating, and practising –</li><li>Criticality</li><li>Movement</li><li>Openness and Open Space.</li></ul><p>Working Principles</p><p>In organisational terms, CACIM has a Board of Directors and some Advisors, and is gradually giving shape to a CACIM Council of Associates and Fellows that will over time become its main platform for exchange and policy development. Its day-to-day functioning and policy work presently takes place through consultations within a Core Group. Some of its working principles are :</p><ul><li>A focus always, in what we do or propose or agree to, on the critical – on critical reflection, critical engagement, and critical action.</li><li>An attempt to always engage and relate with a wide range of people – from different disciplines, both women and men, of different ethnicities, castes and classes, and from both the civil and incivil worlds.</li><li>Aside from always trying to get people to critically reflect as they go along, a characteristic of people we propose to work or associate with closely is a willingness to be critically reflective.</li><li>Always aim for open, networked, and horizontal associations and activities.</li><li>Overall, the overarching principles that underlie CACIM’s work are criticality, transnationalism, and transcommunality, and at all times and in many ways, a focus on movement.</li></ul>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        }
+      ]
+    }
+  }
+}
