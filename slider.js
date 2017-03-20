@@ -3,6 +3,7 @@ $(document).ready(function() {
         auto:false,
         loop:false,
         pauseOnHover: true,
+        slideEndAnimation: true,
         onBeforeSlide: function (el) {
             $('#current').text(el.getCurrentSlideCount());
         } 
