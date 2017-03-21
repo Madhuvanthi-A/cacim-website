@@ -1,0 +1,66 @@
+#mbr-text{
+    padding-bottom: 196px;
+  }
+
+  .mbr_style{
+    padding-top: 80px; 
+    padding-bottom: 80px;
+  }
+
+  .image-size {
+  vertical-align: middle;
+  margin: auto;
+  text-align: center; }
+
+  .mbr_footer_style{
+  background-color: rgba(16, 91, 98, 0.78); 
+  padding-top: 1.75rem; 
+  padding-bottom: 1.75rem;
+}
+
+#img_style{
+  padding:10px 0px 0px 0;
+  margin-top: -15px; 
+  height: auto;
+}
+
+#text_display{
+  display: inline;
+}
+
+#block_display{
+  text-align: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #000; }
+
+.logo_text {
+  font-size: 14px;
+  display: inline-block;
+  margin: 1px;
+  padding-left: 5px;
+  color: #000;
+  font-family: tahoma;
+}
+
+#nav_text{
+  font-size: 12px;
+}
+
+#btn_color{
+  color:#fff;
+}
+
+#mbr_img{
+	width: 50%;
+}
+
+.aty_style{
+	font-style: normal
+}
+
+.mbr_con_style{
+	color: #ffffff;
+}
