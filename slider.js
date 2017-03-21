@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var autoplaySlider = $('#lightSlider').lightSlider({
-        auto:true,
-        loop:true,
+        auto:false,
+        loop:false,
         pauseOnHover: true,
         onBeforeSlide: function (el) {
             $('#current').text(el.getCurrentSlideCount());
