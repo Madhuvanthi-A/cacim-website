@@ -588,31 +588,7 @@ p.lead,
 /**
  * TYPOGRAPHY
  */
-body {
-  font-family: 'Raleway', sans-serif;
-  color: #000; }
-.logo_text {
-  font-size: 14px;
-  display: inline-block;
-  margin: 1px;
-  padding-left: 5px;
-  color: #000;
-}
-#nav_text{
-  font-size: 12px;
-}
 
-#block_display{
-  text-align: center;
-}
-#img_style{
-  padding:10px 0px 0px 0;
-  margin-top: -15px; 
-  height: auto;
-}
-#text_display{
-  display: inline;
-}
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .display-1, .display-2, .display-3, .display-4 {
@@ -648,8 +624,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .text-black {
   color: #535353 !important; }
 
-  #mbr-text{
-    padding-bottom: 196px;
+  .mbr_style_comm{
+    background-color: rgb(255, 255, 255);
+  }
+  .mbr_comm_style{
+    padding-top: 60px; 
+    padding-bottom: 60px;
   }
 
 .mbr-section {
@@ -1604,7 +1584,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 -------*/
 .mbr-small-footer {
-  background: #323232;
+  
   color: #acacac;
   font-size: 0.8125rem;
   padding: 1.75rem 0; }
@@ -2246,10 +2226,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 .content-size {
   width: auto; }
 
-.image-size {
-  vertical-align: middle;
-  margin: auto;
-  text-align: center; }
+
   .image-size .mbr-figure {
     padding-top: 3px; }
 
