@@ -37,7 +37,7 @@ body {
   color: #000; }
 
 .logo_text {
-  font-size: 14px;
+  font-size: 17px;
   display: inline-block;
   margin: 1px;
   padding-left: 5px;
@@ -46,7 +46,7 @@ body {
 }
 
 #nav_text{
-  font-size: 12px;
+  font-size: 17px;
 }
 
 #btn_color{
@@ -64,3 +64,37 @@ body {
 .mbr_con_style{
 	color: #ffffff;
 }
+
+#msg-box6-6 {
+     background-color: #19777f;
+     padding-top: 200px;
+     padding-bottom: 0px; 
+}
+
+#msg-box7-7 {
+  background-color: #fff;
+  padding-top: 200px;
+  padding-bottom: 140px;
+}
+
+#msg-box8-8 {
+  background-color: #3CD3AD;
+  padding-top: 200px;
+  padding-bottom: 0px;
+}
+
+.mbr-style{
+  margin: auto;
+}
+
+#msg-box9-9 {
+  background-color: #19777f;
+  padding-top: 200px;
+  padding-bottom: 120px;
+}
+
+.mbr-display{
+  font-size: 1.07rem; 
+  line-height: 1.5;
+}
+

@@ -662,7 +662,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   padding-bottom: 40px; }
 
 .mbr-section__container--middle {
-  padding-top: 0;
+  padding-top: 90;
   padding-bottom: 40px; }
 
 .mbr-section__container--last {
@@ -788,7 +788,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-table {
   display: table;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: -14px;}
 
 .mbr-table-full {
   height: 100%;
@@ -825,7 +826,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   width: 100%; }
   .mbr-figure img, .mbr-figure iframe {
     display: block;
-    width: 100%; }
+    width: 100%;
+    margin-top: 102px; }
   .mbr-figure .mbr-figure-caption {
     background: #2e2e2e;
     color: #fff;
@@ -1610,7 +1612,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
       padding-left: 6.25rem;
       padding-right: 6.25rem; } }
   .mbr-footer > .row, .mbr-footer > .container > .row {
-    margin-left: 0;
+    margin-left: -108px;;
     margin-right: 0; }
     .mbr-footer > .row > div, .mbr-footer > .container > .row > div {
       padding-bottom: 40px; }
@@ -1669,6 +1671,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-footer-content p, .mbr-footer .mbr-contacts p {
   color: #fff;
   font-size: 0.875rem;
+  margin-left: 119px;
   margin-bottom: 0; }
 .mbr-footer-content ul, .mbr-footer .mbr-contacts ul {
   line-height: 1.8;
@@ -2151,7 +2154,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
   /*contacts1-12 */
   #contacts1-12{
-    background-color: #105b62;
+   background: -webkit-linear-gradient(to left, #4CB8C4 , #3CD3AD); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4CB8C4 , #3CD3AD);
     padding-top: 30px; 
     padding-bottom: 60px;
   }
