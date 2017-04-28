@@ -827,7 +827,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-figure img, .mbr-figure iframe {
     display: block;
     width: 100%;
-    margin-top: 102px; }
+    margin-top: 119px; }
   .mbr-figure .mbr-figure-caption {
     background: #2e2e2e;
     color: #fff;
@@ -1612,7 +1612,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
       padding-left: 6.25rem;
       padding-right: 6.25rem; } }
   .mbr-footer > .row, .mbr-footer > .container > .row {
-    margin-left: -108px;;
+    margin-left: -35px;;
     margin-right: 0; }
     .mbr-footer > .row > div, .mbr-footer > .container > .row > div {
       padding-bottom: 40px; }
